@@ -32,7 +32,7 @@ Companies hire pre-vetted developers and run the whole engagement in one place: 
 
 **Engineering highlights**
 
-- **Security pass on inherited code:** closed authorization gaps in real-time chat, moved auth to JWTs in HttpOnly cookies, upgraded legacy password hashes at sign-in without forcing resets, and took signing keys out of source.
+- **Server-authoritative time tracking:** the server stamps every start, stop and break, a filtered unique index allows one running session per developer, and breaks are excluded from billable hours.
 - **Billing redesign:** replaced taking the full engagement value at hire with an escrow model. Funds are reserved at hire and settled per billing period against approved time, with every movement in a transaction ledger.
 - **Production schema under EF Core migrations:** baselined a live SQL Server database that had only ad hoc scripts, added the 63 indexes it was missing, and shipped idempotent rollout scripts.
 - **Real-time workspace:** SignalR chat with presence, typing, edits and search, video calls, and pushed notifications in place of polling.
