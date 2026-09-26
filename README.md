@@ -1,72 +1,57 @@
-# Hi, I'm Arbaz Khan 👋
+# Arbaz Khan
 
-### Senior Full Stack Engineer | ASP.NET Core 8 | React.js | AWS | Azure | DevOps
+**Senior Full Stack Engineer · .NET, React, AWS · Payments and real-time systems**
 
-I'm a Senior Full Stack Engineer with 6+ years of experience building and shipping production-grade web applications and SaaS platforms. I specialise in backend API development, cloud infrastructure, and end-to-end system ownership.
-
----
-
-## 🚀 Featured Project — Sponsa (sponsa.app)
-
-> Creator monetization SaaS platform — built and operated entirely as sole engineer
-
-- 🟢 **Live in production** with 2,000+ registered users
-- ⚙️ **Backend:** ASP.NET Core 8, C#, Entity Framework Core, SQL Server
-- 🎨 **Frontend:** React.js, JavaScript, TailwindCSS
-- ☁️ **Infrastructure:** AWS EC2, S3, IIS, GitHub Actions CI/CD
-- 💳 **Payments:** PayPal REST API, Stripe Connect, Ryft
-- 🔴 **Real-time:** WebSockets for live stream overlay updates
-- 🐳 **DevOps:** Docker, Kubernetes, Azure App Service, Azure DevOps
+I design, build and run production SaaS end to end: APIs, frontends, cloud infrastructure, payments and the on-call work that keeps them healthy. 6+ years shipping ASP.NET Core and React to real users, most recently as the sole engineer behind [Sponsa](https://sponsa.app).
 
 ---
 
-## 🛠️ Tech Stack
+## Sponsa · creator monetization platform
 
-**Backend**
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core_8-512BD4?style=flat&logo=dotnet&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
-![Entity Framework](https://img.shields.io/badge/Entity_Framework_Core-512BD4?style=flat&logo=dotnet&logoColor=white)
+Live in production with 2,000+ registered users. I own the whole stack: architecture, backend, frontend, infrastructure, releases and incident response.
 
-**Frontend**
-![React](https://img.shields.io/badge/React.js-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+**Engineering highlights**
 
-**Cloud & DevOps**
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-
-**Payments**
-![PayPal](https://img.shields.io/badge/PayPal-00457C?style=flat&logo=paypal&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
+- **Multi-provider payments:** PayPal, Ryft and Stripe Connect behind one payment flow, with multi-currency support and cached FX rates.
+- **Reliable webhooks:** an idempotent store-and-retry inbox with dead-lettering, so duplicate deliveries and provider outages are handled safely.
+- **Reconciliation:** background jobs that check payment state against providers and log exactly what they changed and why.
+- **Real-time overlays:** WebSocket updates that drive live stream alerts and goal progress in OBS.
+- **Integrations:** OAuth with YouTube, Twitch and Twitter, with token refresh and failure handling.
+- **Media pipeline:** S3 and CloudFront delivery with a Lambda that resizes images on upload.
+- **Observability:** structured logging with Serilog and Seq, alerting on payment failures, Sentry on the frontend.
+- **Keeping it current:** upgraded to .NET 10 and EF Core 10, React 19, Vite 8 and Tailwind 4.
+- **Delivery:** separate staging and production environments, GitHub Actions CI/CD for the frontend, xUnit test suite on critical payment and auth logic.
 
 ---
 
-## 💼 Experience
+## Stack
+
+| Area | Tools |
+|---|---|
+| Backend | C#, ASP.NET Core (.NET 10), Entity Framework Core, SQL Server, PostgreSQL, REST, WebSockets |
+| Frontend | React, Next.js, TypeScript, JavaScript, Tailwind CSS, React Query |
+| Cloud and DevOps | AWS (EC2, S3, CloudFront, Lambda), Azure, Docker, Kubernetes, IIS, GitHub Actions, Azure DevOps |
+| Payments | PayPal, Stripe Connect, Ryft |
+| Quality | xUnit, Vitest, Serilog, Seq, Sentry |
+
+---
+
+## Experience
 
 | Role | Company | Period |
-|------|---------|--------|
-| Lead Full Stack Engineer | Sponsa | Nov 2023 – Present |
-| Lead Full Stack Engineer | CoinBitSolutions | Jan 2020 – Present |
+|---|---|---|
+| Lead Full Stack Engineer | Sponsa | Nov 2023 to present |
+| Lead Full Stack Engineer | CoinBitSolutions | Jan 2020 to present |
 
-**Key projects:**
-- **Sponsa** — Creator monetization SaaS (2,000+ users, sole engineer)
-- **New Horizon Medical Solutions** — US healthcare portal (patient management, clinic registration, benefits verification)
-- **KryptoBox** — Cryptocurrency exchange platform
+**Other projects**
 
----
-
-## 📫 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/arbazzkkhan)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:arbaz.bajay@gmail.com)
-[![Sponsa](https://img.shields.io/badge/Sponsa-Live_Project-brightgreen?style=flat)](https://sponsa.app)
+- **New Horizon Medical Solutions:** US healthcare portal for patient management, clinic registration and benefits verification.
+- **KryptoBox:** cryptocurrency exchange platform.
 
 ---
 
-> 💡 Open to senior remote roles and relocation opportunities in software engineering.
+## Contact
+
+[LinkedIn](https://linkedin.com/in/arbazzkkhan) · [Email](mailto:arbaz.bajay@gmail.com) · [sponsa.app](https://sponsa.app)
+
+Open to senior remote roles and relocation.
