@@ -24,6 +24,12 @@ Live in production with 2,000+ registered users. I own the whole stack: architec
 
 ---
 
+## Open source
+
+- **[aspnetcore-webhook-inbox](https://github.com/arbaz168/aspnetcore-webhook-inbox):** production-style payment webhook handling in ASP.NET Core 10. Signed delivery, database-level deduplication, leased workers that scale out safely, retries with backoff and dead-lettering. 31 tests, CI on GitHub Actions.
+
+---
+
 ## Stack
 
 | Area | Tools |
