@@ -24,6 +24,21 @@ Live in production with 2,000+ registered users. I own the whole stack: architec
 
 ---
 
+## LiveHire · managed talent hiring platform
+
+[livehire.gentechs.io](https://livehire.gentechs.io) · Lead Full Stack Engineer · .NET 10, Next.js, React, SQL Server, SignalR
+
+Companies hire pre-vetted developers and run the whole engagement in one place: chat and calls, time tracking, milestones and billing. I took over an existing codebase and rebuilt it across two APIs and two frontends.
+
+**Engineering highlights**
+
+- **Security pass on inherited code:** closed authorization gaps in real-time chat, moved auth to JWTs in HttpOnly cookies, upgraded legacy password hashes at sign-in without forcing resets, and took signing keys out of source.
+- **Billing redesign:** replaced taking the full engagement value at hire with an escrow model. Funds are reserved at hire and settled per billing period against approved time, with every movement in a transaction ledger.
+- **Production schema under EF Core migrations:** baselined a live SQL Server database that had only ad hoc scripts, added the 63 indexes it was missing, and shipped idempotent rollout scripts.
+- **Real-time workspace:** SignalR chat with presence, typing, edits and search, video calls, and pushed notifications in place of polling.
+
+---
+
 ## Open source
 
 - **[aspnetcore-webhook-inbox](https://github.com/arbaz168/aspnetcore-webhook-inbox):** production-style payment webhook handling in ASP.NET Core 10. Signed delivery, database-level deduplication, leased workers that scale out safely, retries with backoff and dead-lettering. 31 tests, CI on GitHub Actions.
@@ -47,6 +62,7 @@ Live in production with 2,000+ registered users. I own the whole stack: architec
 | Role | Company | Period |
 |---|---|---|
 | Lead Full Stack Engineer | Sponsa | Nov 2023 to present |
+| Lead Full Stack Engineer | LiveHire | Aug 2025 to present |
 | Lead Full Stack Engineer | CoinBitSolutions | Jan 2020 to present |
 
 **Other projects**
