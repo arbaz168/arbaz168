@@ -42,6 +42,7 @@ Companies hire pre-vetted developers and run the whole engagement in one place: 
 ## Open source
 
 - **[aspnetcore-webhook-inbox](https://github.com/arbaz168/aspnetcore-webhook-inbox):** production-style payment webhook handling in ASP.NET Core 10. Signed delivery, database-level deduplication, leased workers that scale out safely, retries with backoff and dead-lettering. 31 tests, CI on GitHub Actions.
+- **[aspnetcore-signalr-overlay](https://github.com/arbaz168/aspnetcore-signalr-overlay):** real-time stream alerts for OBS with ASP.NET Core SignalR and React. Gap-free sequence numbers, resume after reconnect, idempotent publishing, and an alert queue that survives bursts. 49 tests, CI on GitHub Actions.
 
 ---
 
