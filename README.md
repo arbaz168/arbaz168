@@ -75,6 +75,6 @@ Companies hire pre-vetted developers and run the whole engagement in one place: 
 
 ## Contact
 
-[LinkedIn](https://linkedin.com/in/arbazzkkhan) · [Email](mailto:arbaz.bajay@gmail.com) · [sponsa.app](https://sponsa.app)
+[arbaz-dev.vercel.app](https://arbaz-dev.vercel.app) · [LinkedIn](https://linkedin.com/in/arbazzkkhan) · [Email](mailto:arbaz.bajay@gmail.com) · [sponsa.app](https://sponsa.app)
 
 Open to senior remote roles and relocation.
